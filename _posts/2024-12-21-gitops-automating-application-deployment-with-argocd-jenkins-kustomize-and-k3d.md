@@ -1,6 +1,14 @@
 ---
 title: 'GitOps: Automating Application Deployment with ArgoCD, Jenkins, Kustomize,
   and K3d'
+tags:
+- Ingress
+- ArgoCD
+- GitOps
+- kustomize
+- Jenkins
+- CI/CD
+- K3d
 ---
 
 ![image info](assets/images/Jenkins-K3d-argo-K.png){: width="550" }
@@ -160,6 +168,19 @@ kubectl apply -f argocd-application-dev.yaml -n argocd
 ```
 
 ---
+## Access the Application:
+Use ArgoCD's UI or ku to monitor the deployment.
+![image info](assets/images/cli-argo-app.png){: width="650" }
+
+![image info](assets/images/argo-dev-prod.png){: width="650" }
+
+Once deployed, access the application via exposed service or configured ingress (K3d comes with Traefik controller)
+
+![image info](assets/images/url-argo.png){: width="650" }
+
+for argocd-application-prod.yaml as well
+![image info](assets/images/url-prod.png){: width="650" }
+
 
 ## Rollback with ArgoCD
 
