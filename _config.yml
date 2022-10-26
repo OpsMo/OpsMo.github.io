@@ -14,7 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Mo  # the main title
+#title: "Mo <br>(OpsMo)" # the main title
+#title: "&nbsp;&nbsp;&nbsp;&nbsp;Mo<br>(OpsMo)" 
+title: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mo" 
 
 tagline: DevOps | K8s | IaC | Terraform | AWS # it will display as the sub-title
 
@@ -26,10 +28,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://OpsMo.github.io"
 
 github:
-  username: sabrymo # change to your github username
+  username: OpsMo # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,8 +40,8 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/sabrymo # change to your github homepage
+   # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/OpsMo # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -73,7 +75,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/images/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -196,4 +198,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+
+
+
+
+jekyll_admin:
+  # hidden_links:
+  #   - posts
+  #   - drafts
+  #   - pages
+  #   - staticfiles
+  #   - staticfiles
+  show_front_matter: true
 
