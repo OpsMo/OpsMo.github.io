@@ -78,7 +78,6 @@ Use the provided Jenkins pipeline to automate the process. The `Jenkinsfile` in 
 - Trigger the pipeline to build and push the image to DockerHub.
 
 ---
-
 ## Kustomize: Managing Multiple Environments
 
 ### Common Directory (`k8s-app-kustomize/common`)
