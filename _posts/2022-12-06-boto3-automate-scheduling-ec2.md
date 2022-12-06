@@ -10,7 +10,7 @@ tags:
 
 ![image info](assets/images/boto-ec2/boto3_lambda.png){: width="250" }
 
-Managing the aws bill and availability of your ec2 instances can be challenging if they run all the time without any need. For example, many teams / companies often have development instances that are not used after working hours and weekends. So, by shutting these down when not in use, you could save a significant amount on your AWS bill.
+Managing the aws cost and availability of your ec2 instances can be challenging if they run all the time without any need. For example, many teams / companies often have development instances that are not used after working hours and weekends. So, by shutting these down when not in use, you could save a significant amount on your AWS bill.
 
 In our case, we tag all development instances (or any other resources that don’t need to run outside working hours) with `env: dev`. This makes it easy to filter and manage these instances separately from production or other critical workloads.
 
@@ -33,7 +33,7 @@ Before starting, ensure you:
 - Install Boto3 using:
     
     ```
-    pip install boto3
+    pip install boto3 
     ```
     
 - Set up AWS credentials using `aws configure` or environment variables.

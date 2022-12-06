@@ -13,12 +13,11 @@ tags:
 
 ![image info](assets/images/Jenkins-K3d-argo-K.png){: width="550" }
 
-Here, we'll explore how to set up a GitOps workflow using ArgoCD, Jenkins, Kustomize, and K3d. This setup enables automated application deployment to Kubernetes environments with seamless management of multiple environments like `dev` and `prod`.
+Here, we'll explore how to set up a GitOps workflow using ArgoCD, Jenkins, Kustomize and K3d. This setup enables automated application deployment to Kubernetes environments with seamless management of multiple environments like `dev` and `prod`.
 
 The accompanying repository can be found here: [argocd-app](https://github.com/OpsMo/argocd-app).
 
 ---
-
 ## Repository Structure
 
 The repository is organized as follows:
