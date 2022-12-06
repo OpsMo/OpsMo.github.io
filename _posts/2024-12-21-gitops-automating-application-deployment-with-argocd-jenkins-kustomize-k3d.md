@@ -52,7 +52,6 @@ Start by cloning the repository:
 git clone https://github.com/OpsMo/argocd-app.git
 cd argocd-app
 ```
-
 ### 2. Build and Push the Application Image
 
 ### Option 1: Manual Build
