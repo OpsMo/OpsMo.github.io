@@ -39,7 +39,7 @@ cd terraform-aws-eks-infra
 
 Before running Terraform, set up an S3 bucket and DynamoDB table for remote state storage and locking. Update the `backend.tf` file with your S3 bucket and DynamoDB table details.
 
-### 3. Configure Variables
+### 3. Set Variables
 
 Edit the `variables.tf` file or create a `terraform.tfvars` file to customize inputs such as:
 
