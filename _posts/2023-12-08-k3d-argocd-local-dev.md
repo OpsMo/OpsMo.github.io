@@ -9,6 +9,9 @@ tags:
 - Ingress
 ---
 
+![image info](assets/images/logo-k3d-argocd.png){: width="550" }
+
+
 Here, we’ll deploy **Argo CD** in a local Kubernetes cluster (On MacOs) using **k3d** and expose it using **Traefik** Ingress on the subpath /argo. By the end, you’ll be able to access Argo CD at:
 
 http://localhost:8080/argo
