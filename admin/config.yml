@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: OpsMo/OpsMo.github.io # Your GitHub username and repository name
+  branch: main # The branch to update
+  base_url: https://codeops.netlify.app/ # Your Netlify site URL
+  auth_endpoint: /.netlify/functions/auth
+
+media_folder: "assets/uploads" # Folder where user uploaded files go
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
