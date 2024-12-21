@@ -158,7 +158,7 @@ spec:
 
 ```
 
-To deploy:
+To deploy :
 
 ```bash
 kubectl apply -f argocd-application-dev.yaml -n argocd
