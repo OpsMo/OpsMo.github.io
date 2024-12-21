@@ -216,4 +216,4 @@ Rollback to a previous version using ArgoCD CLI:
 
 Follow the repository to explore the complete project structure and configurations: [argocd-app](https://github.com/OpsMo/argocd-app).
 
-Goodluck
+Goodluck😊
