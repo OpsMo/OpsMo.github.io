@@ -1,5 +1,5 @@
 ---
-title: Hi, I’m Mohamed
+title: Hi, I’m Mo.
 icon: fas fa-info-circle
 order: 4
 ---
