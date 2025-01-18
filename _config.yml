@@ -190,7 +190,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
-
+  - redirect.html
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

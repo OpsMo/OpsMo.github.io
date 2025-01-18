@@ -1,4 +1,22 @@
----
-layout: redirect
-redirect_to: "https://OpsMo.github.io"
----
+<!-- _layouts/redirect.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+
+    {% if page.redirect_to %}
+      <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+    {% else %}
+      <meta http-equiv="refresh" content="3; url=/404.html">
+    {% endif %}
+</head>
+<body>
+    {% if page.redirect_to %}
+        <p>Redirecting you to <a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a>...</p>
+    {% else %}
+        <p>Error: No redirect target found. Redirecting to <a href="/404.html">404 page</a> in 3 seconds.</p>
+    {% endif %}
+</body>
+</html>
